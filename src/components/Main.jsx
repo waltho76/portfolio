@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Home'
-import Skills from './Skills'
+// import Resume from './Resume'
 import Projects from './Projects'
 import { Routes, Route } from 'react-router-dom'
 
@@ -9,7 +9,7 @@ export default function Main() {
     <div>
         <Routes>
             <Route path = '' element = {<Home/>}/>
-            <Route path = '/skills' element = {<Skills/>}/>
+            {/* <Route path = '/resume' element = {<Resume/>}/> */}
             <Route path = '/projects' element = {<Projects/>}/>
         </Routes>
     </div>
