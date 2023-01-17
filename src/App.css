@@ -23,7 +23,7 @@
 /* .hero {
   display: flex;
   flex-wrap: wrap;
-  
+  float: left;
 } */
 .title   {  
   display: flex;
