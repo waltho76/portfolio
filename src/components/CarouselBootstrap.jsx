@@ -10,7 +10,7 @@ export default function CarouselBootstrap () {
 
     return  (
         <div className='carousel-all'>
-            <h3>projects</h3>
+            <h3>Projects</h3>
         <div className='carousel-container'> 
             <div className='carousel'>
         <Carousel>
